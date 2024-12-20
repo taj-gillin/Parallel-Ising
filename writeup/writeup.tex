@@ -1,0 +1,163 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{float}
+\geometry{margin=1in}
+
+\title{3D Ising Model with Parallel Implementations: Final Project Report}
+\author{Taj Gillin}
+\date{December 2024}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+\subsection{Background}
+Ferromagnetism and phase transitions are fundamental concepts in statistical mechanics. The Ising Model provides a simplified yet effective framework to study these phenomena by modeling spins on a lattice. This report focuses on a 3D Ising Model (3 spatial dimensions, 1 time dimension) and its application to high-dimensional problems.
+
+\subsection{Objective}
+The goal of this project is to simulate the 3D Ising Model using parallel computing approaches, leveraging MPI for distributed memory and GPUs for acceleration. Special emphasis is placed on scalability, performance optimization, and future enhancements.
+
+\subsection{Hardware Configuration}
+\begin{itemize}
+    \item Number of GPUs: 4
+    \item MPI Ranks: 8 (2 ranks per GPU)
+    \item GPU Architecture: AMD RDNA 2
+    \item Host Configuration: HPC Cluster Node
+\end{itemize}
+
+\section{Theoretical Background}
+\subsection{Ising Model Formulation}
+The Ising Model represents spins on a lattice, each taking a value of $+1$ or $-1$. The Hamiltonian is defined as:
+\begin{equation}
+H = -J \sum_{\langle i,j \rangle} s_i s_j - h \sum_i s_i,
+\end{equation}
+where $J$ is the interaction strength, $h$ is the external magnetic field, and $s_i$ denotes the spin at site $i$. The energy change for a single spin flip is given by:
+\begin{equation}
+\Delta E_i = -\sum_n J s_i s_n - h s_i.
+\end{equation}
+
+\subsection{Monte Carlo Simulation}
+The Metropolis algorithm is employed for simulation, consisting of:
+\begin{enumerate}
+    \item Randomly selecting a spin.
+    \item Calculating the energy change $\Delta E$.
+    \item Flipping the spin with a probability dependent on $\Delta E$.
+\end{enumerate}
+This approach ensures proper statistical sampling and equilibrium.
+
+\subsection{Monte Carlo Implementation Details}
+The simulation includes:
+\begin{itemize}
+    \item Temperature annealing from $T_{start}=2.5$ to $T_{end}=0.5$
+    \item Random number generation using CUDA/HIP RNG
+    \item Detailed timing measurements for:
+    \begin{itemize}
+        \item Computation
+        \item Memory Transfer
+        \item Halo Exchange
+        \item MPI Communication
+    \end{itemize}
+\end{itemize}
+
+\section{Serial Implementation}
+The serial implementation utilizes the sweeping method to systematically update spins across the lattice. To enhance statistical reliability, a red-black update scheme is applied, which alternates updates between subsets of spins to prevent pattern formation.
+
+\section{Parallelization Approaches}
+\subsection{MPI Domain Decomposition}
+\begin{itemize}
+    \item The $L \times L \times L$ lattice is decomposed into sub-lattices, each handled by an MPI rank.
+    \item Halo exchange is used for boundary synchronization, ensuring accurate neighbor interactions.
+\end{itemize}
+
+\subsection{GPU Offloading}
+\begin{itemize}
+    \item Spin updates and energy calculations are offloaded to GPUs.
+    \item Workflow:
+    \begin{enumerate}
+        \item Halo exchange on the CPU.
+        \item Data transfer to GPU.
+        \item Computation on GPU.
+        \item Results transfer back to CPU.
+    \end{enumerate}
+    \item HIP or CUDA frameworks enable hardware-agnostic implementation.
+\end{itemize}
+
+\section{Optimizations}
+\subsection{Shared Memory}
+Shared memory is utilized to reduce global memory access within GPU threads, improving data reuse and reducing runtime.
+
+\subsection{GPU-Aware MPI}
+Direct GPU-to-GPU halo exchanges minimize CPU involvement, significantly reducing communication overhead.
+
+\section{Performance Analysis}
+\subsection{Roofline Model}
+The roofline model highlights the balance between computation and memory bandwidth. Key kernels, such as spin updates and energy calculations, are analyzed for efficiency.
+
+\subsection{Scalability}
+Performance is evaluated across varying lattice sizes ($64^3$ and $256^3$) and hardware configurations. 
+
+\subsection{Performance Metrics}
+\begin{itemize}
+    \item Compute Utilization: 0.0408\% of peak FLOPS
+    \item Memory Bandwidth Utilization: 2.545\% of peak BW
+    \item PCIe Bandwidth Utilization: 13.577\% of peak BW
+\end{itemize}
+
+\section{Results}
+\subsection{Energy and Magnetization}
+The energy and magnetization are plotted as functions of iteration count, demonstrating the convergence of the solution.
+
+\subsection{Runtime Comparison}
+\begin{itemize}
+    \item Serial implementation: 36.2 seconds.
+    \item MPI implementation (8 ranks): 5.8 seconds.
+    \item GPU implementation ($64^3$): 0.95 seconds.
+    \item GPU optimized implementation ($64^3$): 0.28 seconds.
+    \item GPU optimized implementation ($256^3$): 5.5 seconds.
+\end{itemize}
+\subsection{Visualization}
+Include plots for:
+\begin{itemize}
+    \item Residual vs iteration count.
+    \item Roofline performance model.
+    \item Runtime scaling.
+\end{itemize}
+
+\section{Discussion}
+Challenges in parallelization include balancing computation and communication, and efficiently handling high-dimensional data. Optimizations significantly improve runtime and scalability, though limitations remain due to assumptions like periodic boundary conditions.
+
+\section{Future Directions}
+\subsection{Pinned Memory}
+Pinned memory can accelerate host-device transfers and improve communication performance.
+
+\subsection{Asynchronous Streams}
+Overlapping computation and communication through asynchronous streams could reduce overall runtime further.
+
+\subsection{Other Enhancements}
+\begin{itemize}
+    \item Advanced preconditioners for faster convergence.
+    \item Larger clusters or higher-dimensional systems.
+    \item Application to other models, such as the 3D Potts Model.
+\end{itemize}
+
+\section{Conclusion}
+The project successfully demonstrates scalable and optimized implementations of the 3D Ising Model. GPU acceleration and MPI domain decomposition achieve significant runtime reductions, offering insights into high-performance computing trade-offs.
+
+\appendix
+\section{Appendix}
+\subsection{Pseudocode}
+Include pseudocode for Metropolis updates and halo exchanges.
+
+\subsection{Experimental Details}
+Parameters and configurations for simulations.
+
+\end{document}

@@ -1,0 +1,701 @@
+Index,KernelName,gpu-id,queue-id,queue-index,pid,tid,grd,wgr,lds,scr,arch_vgpr,accum_vgpr,sgpr,wave_size,sig,obj
+0,"__amd_rocclr_copyBuffer.kd",2,0,0,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+1,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,1,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+2,"__amd_rocclr_copyBuffer.kd",2,0,3,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+3,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,4,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+4,"__amd_rocclr_fillBufferAligned.kd",2,0,6,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+5,"__amd_rocclr_fillBufferAligned.kd",2,0,7,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+6,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,8,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+7,"__amd_rocclr_copyBuffer.kd",2,0,10,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+8,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,11,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+9,"__amd_rocclr_copyBuffer.kd",2,0,13,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+10,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,14,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+11,"__amd_rocclr_fillBufferAligned.kd",2,0,16,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+12,"__amd_rocclr_fillBufferAligned.kd",2,0,17,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+13,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,18,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+14,"__amd_rocclr_copyBuffer.kd",2,0,20,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+15,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,21,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+16,"__amd_rocclr_copyBuffer.kd",2,0,23,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+17,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,24,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+18,"__amd_rocclr_fillBufferAligned.kd",2,0,26,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+19,"__amd_rocclr_fillBufferAligned.kd",2,0,27,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+20,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,28,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+21,"__amd_rocclr_copyBuffer.kd",2,0,30,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+22,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,31,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+23,"__amd_rocclr_copyBuffer.kd",2,0,33,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+24,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,34,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+25,"__amd_rocclr_fillBufferAligned.kd",2,0,36,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+26,"__amd_rocclr_fillBufferAligned.kd",2,0,37,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+27,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,38,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+28,"__amd_rocclr_copyBuffer.kd",2,0,40,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+29,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,41,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+30,"__amd_rocclr_copyBuffer.kd",2,0,43,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+31,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,44,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+32,"__amd_rocclr_fillBufferAligned.kd",2,0,46,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+33,"__amd_rocclr_fillBufferAligned.kd",2,0,47,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+34,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,48,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+35,"__amd_rocclr_copyBuffer.kd",2,0,50,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+36,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,51,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+37,"__amd_rocclr_copyBuffer.kd",2,0,53,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+38,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,54,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+39,"__amd_rocclr_fillBufferAligned.kd",2,0,56,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+40,"__amd_rocclr_fillBufferAligned.kd",2,0,57,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+41,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,58,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+42,"__amd_rocclr_copyBuffer.kd",2,0,60,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+43,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,61,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+44,"__amd_rocclr_copyBuffer.kd",2,0,63,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+45,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,64,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+46,"__amd_rocclr_fillBufferAligned.kd",2,0,66,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+47,"__amd_rocclr_fillBufferAligned.kd",2,0,67,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+48,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,68,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+49,"__amd_rocclr_copyBuffer.kd",2,0,70,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+50,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,71,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+51,"__amd_rocclr_copyBuffer.kd",2,0,73,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+52,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,74,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+53,"__amd_rocclr_fillBufferAligned.kd",2,0,76,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+54,"__amd_rocclr_fillBufferAligned.kd",2,0,77,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+55,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,78,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+56,"__amd_rocclr_copyBuffer.kd",2,0,80,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+57,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,81,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+58,"__amd_rocclr_copyBuffer.kd",2,0,83,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+59,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,84,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+60,"__amd_rocclr_fillBufferAligned.kd",2,0,86,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+61,"__amd_rocclr_fillBufferAligned.kd",2,0,87,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+62,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,88,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+63,"__amd_rocclr_copyBuffer.kd",2,0,90,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+64,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,91,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+65,"__amd_rocclr_copyBuffer.kd",2,0,93,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+66,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,94,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+67,"__amd_rocclr_fillBufferAligned.kd",2,0,96,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+68,"__amd_rocclr_fillBufferAligned.kd",2,0,97,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+69,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,98,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+70,"__amd_rocclr_copyBuffer.kd",2,0,100,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+71,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,101,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+72,"__amd_rocclr_copyBuffer.kd",2,0,103,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+73,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,104,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+74,"__amd_rocclr_fillBufferAligned.kd",2,0,106,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+75,"__amd_rocclr_fillBufferAligned.kd",2,0,107,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+76,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,108,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+77,"__amd_rocclr_copyBuffer.kd",2,0,110,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+78,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,111,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+79,"__amd_rocclr_copyBuffer.kd",2,0,113,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+80,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,114,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+81,"__amd_rocclr_fillBufferAligned.kd",2,0,116,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+82,"__amd_rocclr_fillBufferAligned.kd",2,0,117,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+83,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,118,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+84,"__amd_rocclr_copyBuffer.kd",2,0,120,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+85,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,121,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+86,"__amd_rocclr_copyBuffer.kd",2,0,123,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+87,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,124,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+88,"__amd_rocclr_fillBufferAligned.kd",2,0,126,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+89,"__amd_rocclr_fillBufferAligned.kd",2,0,127,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+90,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,128,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+91,"__amd_rocclr_copyBuffer.kd",2,0,130,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+92,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,131,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+93,"__amd_rocclr_copyBuffer.kd",2,0,133,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+94,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,134,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+95,"__amd_rocclr_fillBufferAligned.kd",2,0,136,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+96,"__amd_rocclr_fillBufferAligned.kd",2,0,137,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+97,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,138,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+98,"__amd_rocclr_copyBuffer.kd",2,0,140,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+99,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,141,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+100,"__amd_rocclr_copyBuffer.kd",2,0,143,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+101,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,144,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+102,"__amd_rocclr_fillBufferAligned.kd",2,0,146,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+103,"__amd_rocclr_fillBufferAligned.kd",2,0,147,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+104,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,148,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+105,"__amd_rocclr_copyBuffer.kd",2,0,150,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+106,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,151,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+107,"__amd_rocclr_copyBuffer.kd",2,0,153,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+108,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,154,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+109,"__amd_rocclr_fillBufferAligned.kd",2,0,156,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+110,"__amd_rocclr_fillBufferAligned.kd",2,0,157,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+111,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,158,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+112,"__amd_rocclr_copyBuffer.kd",2,0,160,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+113,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,161,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+114,"__amd_rocclr_copyBuffer.kd",2,0,163,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+115,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,164,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+116,"__amd_rocclr_fillBufferAligned.kd",2,0,166,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+117,"__amd_rocclr_fillBufferAligned.kd",2,0,167,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+118,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,168,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+119,"__amd_rocclr_copyBuffer.kd",2,0,170,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+120,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,171,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+121,"__amd_rocclr_copyBuffer.kd",2,0,173,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+122,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,174,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+123,"__amd_rocclr_fillBufferAligned.kd",2,0,176,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+124,"__amd_rocclr_fillBufferAligned.kd",2,0,177,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+125,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,178,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+126,"__amd_rocclr_copyBuffer.kd",2,0,180,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+127,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,181,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+128,"__amd_rocclr_copyBuffer.kd",2,0,183,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+129,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,184,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+130,"__amd_rocclr_fillBufferAligned.kd",2,0,186,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+131,"__amd_rocclr_fillBufferAligned.kd",2,0,187,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+132,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,188,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+133,"__amd_rocclr_copyBuffer.kd",2,0,190,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+134,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,191,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+135,"__amd_rocclr_copyBuffer.kd",2,0,193,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+136,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,194,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+137,"__amd_rocclr_fillBufferAligned.kd",2,0,196,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+138,"__amd_rocclr_fillBufferAligned.kd",2,0,197,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+139,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,198,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+140,"__amd_rocclr_copyBuffer.kd",2,0,200,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+141,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,201,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+142,"__amd_rocclr_copyBuffer.kd",2,0,203,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+143,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,204,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+144,"__amd_rocclr_fillBufferAligned.kd",2,0,206,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+145,"__amd_rocclr_fillBufferAligned.kd",2,0,207,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+146,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,208,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+147,"__amd_rocclr_copyBuffer.kd",2,0,210,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+148,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,211,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+149,"__amd_rocclr_copyBuffer.kd",2,0,213,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+150,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,214,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+151,"__amd_rocclr_fillBufferAligned.kd",2,0,216,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+152,"__amd_rocclr_fillBufferAligned.kd",2,0,217,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+153,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,218,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+154,"__amd_rocclr_copyBuffer.kd",2,0,220,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+155,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,221,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+156,"__amd_rocclr_copyBuffer.kd",2,0,223,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+157,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,224,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+158,"__amd_rocclr_fillBufferAligned.kd",2,0,226,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+159,"__amd_rocclr_fillBufferAligned.kd",2,0,227,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+160,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,228,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+161,"__amd_rocclr_copyBuffer.kd",2,0,230,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+162,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,231,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+163,"__amd_rocclr_copyBuffer.kd",2,0,233,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+164,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,234,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+165,"__amd_rocclr_fillBufferAligned.kd",2,0,236,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+166,"__amd_rocclr_fillBufferAligned.kd",2,0,237,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+167,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,238,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+168,"__amd_rocclr_copyBuffer.kd",2,0,240,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+169,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,241,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+170,"__amd_rocclr_copyBuffer.kd",2,0,243,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+171,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,244,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+172,"__amd_rocclr_fillBufferAligned.kd",2,0,246,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+173,"__amd_rocclr_fillBufferAligned.kd",2,0,247,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+174,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,248,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+175,"__amd_rocclr_copyBuffer.kd",2,0,250,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+176,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,251,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+177,"__amd_rocclr_copyBuffer.kd",2,0,253,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+178,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,254,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+179,"__amd_rocclr_fillBufferAligned.kd",2,0,256,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+180,"__amd_rocclr_fillBufferAligned.kd",2,0,257,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+181,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,258,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+182,"__amd_rocclr_copyBuffer.kd",2,0,260,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+183,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,261,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+184,"__amd_rocclr_copyBuffer.kd",2,0,263,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+185,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,264,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+186,"__amd_rocclr_fillBufferAligned.kd",2,0,266,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+187,"__amd_rocclr_fillBufferAligned.kd",2,0,267,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+188,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,268,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+189,"__amd_rocclr_copyBuffer.kd",2,0,270,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+190,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,271,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+191,"__amd_rocclr_copyBuffer.kd",2,0,273,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+192,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,274,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+193,"__amd_rocclr_fillBufferAligned.kd",2,0,276,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+194,"__amd_rocclr_fillBufferAligned.kd",2,0,277,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+195,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,278,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+196,"__amd_rocclr_copyBuffer.kd",2,0,280,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+197,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,281,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+198,"__amd_rocclr_copyBuffer.kd",2,0,283,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+199,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,284,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+200,"__amd_rocclr_fillBufferAligned.kd",2,0,286,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+201,"__amd_rocclr_fillBufferAligned.kd",2,0,287,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+202,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,288,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+203,"__amd_rocclr_copyBuffer.kd",2,0,290,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+204,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,291,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+205,"__amd_rocclr_copyBuffer.kd",2,0,293,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+206,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,294,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+207,"__amd_rocclr_fillBufferAligned.kd",2,0,296,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+208,"__amd_rocclr_fillBufferAligned.kd",2,0,297,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+209,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,298,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+210,"__amd_rocclr_copyBuffer.kd",2,0,300,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+211,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,301,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+212,"__amd_rocclr_copyBuffer.kd",2,0,303,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+213,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,304,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+214,"__amd_rocclr_fillBufferAligned.kd",2,0,306,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+215,"__amd_rocclr_fillBufferAligned.kd",2,0,307,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+216,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,308,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+217,"__amd_rocclr_copyBuffer.kd",2,0,310,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+218,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,311,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+219,"__amd_rocclr_copyBuffer.kd",2,0,313,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+220,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,314,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+221,"__amd_rocclr_fillBufferAligned.kd",2,0,316,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+222,"__amd_rocclr_fillBufferAligned.kd",2,0,317,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+223,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,318,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+224,"__amd_rocclr_copyBuffer.kd",2,0,320,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+225,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,321,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+226,"__amd_rocclr_copyBuffer.kd",2,0,323,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+227,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,324,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+228,"__amd_rocclr_fillBufferAligned.kd",2,0,326,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+229,"__amd_rocclr_fillBufferAligned.kd",2,0,327,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+230,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,328,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+231,"__amd_rocclr_copyBuffer.kd",2,0,330,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+232,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,331,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+233,"__amd_rocclr_copyBuffer.kd",2,0,333,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+234,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,334,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+235,"__amd_rocclr_fillBufferAligned.kd",2,0,336,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+236,"__amd_rocclr_fillBufferAligned.kd",2,0,337,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+237,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,338,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+238,"__amd_rocclr_copyBuffer.kd",2,0,340,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+239,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,341,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+240,"__amd_rocclr_copyBuffer.kd",2,0,343,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+241,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,344,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+242,"__amd_rocclr_fillBufferAligned.kd",2,0,346,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+243,"__amd_rocclr_fillBufferAligned.kd",2,0,347,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+244,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,348,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+245,"__amd_rocclr_copyBuffer.kd",2,0,350,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+246,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,351,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+247,"__amd_rocclr_copyBuffer.kd",2,0,353,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+248,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,354,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+249,"__amd_rocclr_fillBufferAligned.kd",2,0,356,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+250,"__amd_rocclr_fillBufferAligned.kd",2,0,357,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+251,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,358,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+252,"__amd_rocclr_copyBuffer.kd",2,0,360,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+253,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,361,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+254,"__amd_rocclr_copyBuffer.kd",2,0,363,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+255,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,364,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+256,"__amd_rocclr_fillBufferAligned.kd",2,0,366,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+257,"__amd_rocclr_fillBufferAligned.kd",2,0,367,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+258,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,368,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+259,"__amd_rocclr_copyBuffer.kd",2,0,370,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+260,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,371,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+261,"__amd_rocclr_copyBuffer.kd",2,0,373,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+262,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,374,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+263,"__amd_rocclr_fillBufferAligned.kd",2,0,376,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+264,"__amd_rocclr_fillBufferAligned.kd",2,0,377,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+265,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,378,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+266,"__amd_rocclr_copyBuffer.kd",2,0,380,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+267,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,381,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+268,"__amd_rocclr_copyBuffer.kd",2,0,383,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+269,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,384,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+270,"__amd_rocclr_fillBufferAligned.kd",2,0,386,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+271,"__amd_rocclr_fillBufferAligned.kd",2,0,387,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+272,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,388,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+273,"__amd_rocclr_copyBuffer.kd",2,0,390,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+274,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,391,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+275,"__amd_rocclr_copyBuffer.kd",2,0,393,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+276,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,394,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+277,"__amd_rocclr_fillBufferAligned.kd",2,0,396,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+278,"__amd_rocclr_fillBufferAligned.kd",2,0,397,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+279,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,398,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+280,"__amd_rocclr_copyBuffer.kd",2,0,400,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+281,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,401,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+282,"__amd_rocclr_copyBuffer.kd",2,0,403,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+283,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,404,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+284,"__amd_rocclr_fillBufferAligned.kd",2,0,406,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+285,"__amd_rocclr_fillBufferAligned.kd",2,0,407,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+286,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,408,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+287,"__amd_rocclr_copyBuffer.kd",2,0,410,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+288,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,411,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+289,"__amd_rocclr_copyBuffer.kd",2,0,413,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+290,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,414,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+291,"__amd_rocclr_fillBufferAligned.kd",2,0,416,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+292,"__amd_rocclr_fillBufferAligned.kd",2,0,417,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+293,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,418,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+294,"__amd_rocclr_copyBuffer.kd",2,0,420,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+295,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,421,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+296,"__amd_rocclr_copyBuffer.kd",2,0,423,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+297,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,424,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+298,"__amd_rocclr_fillBufferAligned.kd",2,0,426,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+299,"__amd_rocclr_fillBufferAligned.kd",2,0,427,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+300,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,428,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+301,"__amd_rocclr_copyBuffer.kd",2,0,430,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+302,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,431,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+303,"__amd_rocclr_copyBuffer.kd",2,0,433,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+304,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,434,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+305,"__amd_rocclr_fillBufferAligned.kd",2,0,436,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+306,"__amd_rocclr_fillBufferAligned.kd",2,0,437,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+307,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,438,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+308,"__amd_rocclr_copyBuffer.kd",2,0,440,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+309,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,441,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+310,"__amd_rocclr_copyBuffer.kd",2,0,443,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+311,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,444,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+312,"__amd_rocclr_fillBufferAligned.kd",2,0,446,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+313,"__amd_rocclr_fillBufferAligned.kd",2,0,447,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+314,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,448,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+315,"__amd_rocclr_copyBuffer.kd",2,0,450,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+316,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,451,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+317,"__amd_rocclr_copyBuffer.kd",2,0,453,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+318,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,454,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+319,"__amd_rocclr_fillBufferAligned.kd",2,0,456,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+320,"__amd_rocclr_fillBufferAligned.kd",2,0,457,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+321,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,458,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+322,"__amd_rocclr_copyBuffer.kd",2,0,460,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+323,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,461,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+324,"__amd_rocclr_copyBuffer.kd",2,0,463,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+325,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,464,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+326,"__amd_rocclr_fillBufferAligned.kd",2,0,466,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+327,"__amd_rocclr_fillBufferAligned.kd",2,0,467,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+328,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,468,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+329,"__amd_rocclr_copyBuffer.kd",2,0,470,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+330,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,471,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+331,"__amd_rocclr_copyBuffer.kd",2,0,473,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+332,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,474,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+333,"__amd_rocclr_fillBufferAligned.kd",2,0,476,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+334,"__amd_rocclr_fillBufferAligned.kd",2,0,477,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+335,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,478,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+336,"__amd_rocclr_copyBuffer.kd",2,0,480,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+337,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,481,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+338,"__amd_rocclr_copyBuffer.kd",2,0,483,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+339,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,484,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+340,"__amd_rocclr_fillBufferAligned.kd",2,0,486,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+341,"__amd_rocclr_fillBufferAligned.kd",2,0,487,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+342,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,488,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+343,"__amd_rocclr_copyBuffer.kd",2,0,490,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+344,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,491,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+345,"__amd_rocclr_copyBuffer.kd",2,0,493,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+346,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,494,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+347,"__amd_rocclr_fillBufferAligned.kd",2,0,496,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+348,"__amd_rocclr_fillBufferAligned.kd",2,0,497,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+349,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,498,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+350,"__amd_rocclr_copyBuffer.kd",2,0,500,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+351,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,501,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+352,"__amd_rocclr_copyBuffer.kd",2,0,503,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+353,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,504,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+354,"__amd_rocclr_fillBufferAligned.kd",2,0,506,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+355,"__amd_rocclr_fillBufferAligned.kd",2,0,507,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+356,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,508,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+357,"__amd_rocclr_copyBuffer.kd",2,0,510,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+358,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,511,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+359,"__amd_rocclr_copyBuffer.kd",2,0,513,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+360,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,514,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+361,"__amd_rocclr_fillBufferAligned.kd",2,0,516,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+362,"__amd_rocclr_fillBufferAligned.kd",2,0,517,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+363,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,518,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+364,"__amd_rocclr_copyBuffer.kd",2,0,520,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+365,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,521,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+366,"__amd_rocclr_copyBuffer.kd",2,0,523,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+367,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,524,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+368,"__amd_rocclr_fillBufferAligned.kd",2,0,526,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+369,"__amd_rocclr_fillBufferAligned.kd",2,0,527,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+370,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,528,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+371,"__amd_rocclr_copyBuffer.kd",2,0,530,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+372,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,531,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+373,"__amd_rocclr_copyBuffer.kd",2,0,533,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+374,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,534,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+375,"__amd_rocclr_fillBufferAligned.kd",2,0,536,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+376,"__amd_rocclr_fillBufferAligned.kd",2,0,537,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+377,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,538,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+378,"__amd_rocclr_copyBuffer.kd",2,0,540,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+379,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,541,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+380,"__amd_rocclr_copyBuffer.kd",2,0,543,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+381,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,544,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+382,"__amd_rocclr_fillBufferAligned.kd",2,0,546,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+383,"__amd_rocclr_fillBufferAligned.kd",2,0,547,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+384,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,548,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+385,"__amd_rocclr_copyBuffer.kd",2,0,550,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+386,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,551,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+387,"__amd_rocclr_copyBuffer.kd",2,0,553,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+388,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,554,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+389,"__amd_rocclr_fillBufferAligned.kd",2,0,556,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+390,"__amd_rocclr_fillBufferAligned.kd",2,0,557,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+391,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,558,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+392,"__amd_rocclr_copyBuffer.kd",2,0,560,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+393,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,561,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+394,"__amd_rocclr_copyBuffer.kd",2,0,563,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+395,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,564,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+396,"__amd_rocclr_fillBufferAligned.kd",2,0,566,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+397,"__amd_rocclr_fillBufferAligned.kd",2,0,567,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+398,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,568,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+399,"__amd_rocclr_copyBuffer.kd",2,0,570,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+400,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,571,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+401,"__amd_rocclr_copyBuffer.kd",2,0,573,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+402,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,574,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+403,"__amd_rocclr_fillBufferAligned.kd",2,0,576,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+404,"__amd_rocclr_fillBufferAligned.kd",2,0,577,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+405,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,578,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+406,"__amd_rocclr_copyBuffer.kd",2,0,580,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+407,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,581,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+408,"__amd_rocclr_copyBuffer.kd",2,0,583,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+409,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,584,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+410,"__amd_rocclr_fillBufferAligned.kd",2,0,586,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+411,"__amd_rocclr_fillBufferAligned.kd",2,0,587,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+412,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,588,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+413,"__amd_rocclr_copyBuffer.kd",2,0,590,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+414,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,591,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+415,"__amd_rocclr_copyBuffer.kd",2,0,593,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+416,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,594,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+417,"__amd_rocclr_fillBufferAligned.kd",2,0,596,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+418,"__amd_rocclr_fillBufferAligned.kd",2,0,597,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+419,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,598,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+420,"__amd_rocclr_copyBuffer.kd",2,0,600,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+421,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,601,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+422,"__amd_rocclr_copyBuffer.kd",2,0,603,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+423,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,604,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+424,"__amd_rocclr_fillBufferAligned.kd",2,0,606,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+425,"__amd_rocclr_fillBufferAligned.kd",2,0,607,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+426,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,608,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+427,"__amd_rocclr_copyBuffer.kd",2,0,610,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+428,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,611,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+429,"__amd_rocclr_copyBuffer.kd",2,0,613,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+430,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,614,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+431,"__amd_rocclr_fillBufferAligned.kd",2,0,616,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+432,"__amd_rocclr_fillBufferAligned.kd",2,0,617,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+433,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,618,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+434,"__amd_rocclr_copyBuffer.kd",2,0,620,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+435,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,621,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+436,"__amd_rocclr_copyBuffer.kd",2,0,623,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+437,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,624,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+438,"__amd_rocclr_fillBufferAligned.kd",2,0,626,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+439,"__amd_rocclr_fillBufferAligned.kd",2,0,627,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+440,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,628,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+441,"__amd_rocclr_copyBuffer.kd",2,0,630,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+442,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,631,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+443,"__amd_rocclr_copyBuffer.kd",2,0,633,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+444,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,634,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+445,"__amd_rocclr_fillBufferAligned.kd",2,0,636,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+446,"__amd_rocclr_fillBufferAligned.kd",2,0,637,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+447,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,638,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+448,"__amd_rocclr_copyBuffer.kd",2,0,640,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+449,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,641,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+450,"__amd_rocclr_copyBuffer.kd",2,0,643,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+451,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,644,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+452,"__amd_rocclr_fillBufferAligned.kd",2,0,646,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+453,"__amd_rocclr_fillBufferAligned.kd",2,0,647,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+454,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,648,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+455,"__amd_rocclr_copyBuffer.kd",2,0,650,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+456,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,651,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+457,"__amd_rocclr_copyBuffer.kd",2,0,653,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+458,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,654,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+459,"__amd_rocclr_fillBufferAligned.kd",2,0,656,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+460,"__amd_rocclr_fillBufferAligned.kd",2,0,657,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+461,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,658,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+462,"__amd_rocclr_copyBuffer.kd",2,0,660,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+463,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,661,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+464,"__amd_rocclr_copyBuffer.kd",2,0,663,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+465,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,664,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+466,"__amd_rocclr_fillBufferAligned.kd",2,0,666,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+467,"__amd_rocclr_fillBufferAligned.kd",2,0,667,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+468,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,668,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+469,"__amd_rocclr_copyBuffer.kd",2,0,670,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+470,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,671,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+471,"__amd_rocclr_copyBuffer.kd",2,0,673,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+472,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,674,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+473,"__amd_rocclr_fillBufferAligned.kd",2,0,676,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+474,"__amd_rocclr_fillBufferAligned.kd",2,0,677,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+475,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,678,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+476,"__amd_rocclr_copyBuffer.kd",2,0,680,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+477,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,681,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+478,"__amd_rocclr_copyBuffer.kd",2,0,683,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+479,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,684,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+480,"__amd_rocclr_fillBufferAligned.kd",2,0,686,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+481,"__amd_rocclr_fillBufferAligned.kd",2,0,687,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+482,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,688,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+483,"__amd_rocclr_copyBuffer.kd",2,0,690,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+484,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,691,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+485,"__amd_rocclr_copyBuffer.kd",2,0,693,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+486,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,694,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+487,"__amd_rocclr_fillBufferAligned.kd",2,0,696,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+488,"__amd_rocclr_fillBufferAligned.kd",2,0,697,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+489,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,698,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+490,"__amd_rocclr_copyBuffer.kd",2,0,700,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+491,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,701,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+492,"__amd_rocclr_copyBuffer.kd",2,0,703,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+493,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,704,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+494,"__amd_rocclr_fillBufferAligned.kd",2,0,706,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+495,"__amd_rocclr_fillBufferAligned.kd",2,0,707,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+496,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,708,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+497,"__amd_rocclr_copyBuffer.kd",2,0,710,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+498,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,711,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+499,"__amd_rocclr_copyBuffer.kd",2,0,713,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+500,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,714,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+501,"__amd_rocclr_fillBufferAligned.kd",2,0,716,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+502,"__amd_rocclr_fillBufferAligned.kd",2,0,717,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+503,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,718,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+504,"__amd_rocclr_copyBuffer.kd",2,0,720,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+505,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,721,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+506,"__amd_rocclr_copyBuffer.kd",2,0,723,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+507,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,724,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+508,"__amd_rocclr_fillBufferAligned.kd",2,0,726,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+509,"__amd_rocclr_fillBufferAligned.kd",2,0,727,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+510,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,728,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+511,"__amd_rocclr_copyBuffer.kd",2,0,730,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+512,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,731,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+513,"__amd_rocclr_copyBuffer.kd",2,0,733,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+514,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,734,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+515,"__amd_rocclr_fillBufferAligned.kd",2,0,736,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+516,"__amd_rocclr_fillBufferAligned.kd",2,0,737,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+517,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,738,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+518,"__amd_rocclr_copyBuffer.kd",2,0,740,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+519,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,741,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+520,"__amd_rocclr_copyBuffer.kd",2,0,743,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+521,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,744,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+522,"__amd_rocclr_fillBufferAligned.kd",2,0,746,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+523,"__amd_rocclr_fillBufferAligned.kd",2,0,747,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+524,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,748,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+525,"__amd_rocclr_copyBuffer.kd",2,0,750,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+526,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,751,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+527,"__amd_rocclr_copyBuffer.kd",2,0,753,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+528,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,754,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+529,"__amd_rocclr_fillBufferAligned.kd",2,0,756,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+530,"__amd_rocclr_fillBufferAligned.kd",2,0,757,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+531,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,758,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+532,"__amd_rocclr_copyBuffer.kd",2,0,760,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+533,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,761,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+534,"__amd_rocclr_copyBuffer.kd",2,0,763,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+535,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,764,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+536,"__amd_rocclr_fillBufferAligned.kd",2,0,766,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+537,"__amd_rocclr_fillBufferAligned.kd",2,0,767,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+538,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,768,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+539,"__amd_rocclr_copyBuffer.kd",2,0,770,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+540,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,771,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+541,"__amd_rocclr_copyBuffer.kd",2,0,773,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+542,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,774,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+543,"__amd_rocclr_fillBufferAligned.kd",2,0,776,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+544,"__amd_rocclr_fillBufferAligned.kd",2,0,777,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+545,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,778,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+546,"__amd_rocclr_copyBuffer.kd",2,0,780,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+547,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,781,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+548,"__amd_rocclr_copyBuffer.kd",2,0,783,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+549,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,784,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+550,"__amd_rocclr_fillBufferAligned.kd",2,0,786,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+551,"__amd_rocclr_fillBufferAligned.kd",2,0,787,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+552,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,788,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+553,"__amd_rocclr_copyBuffer.kd",2,0,790,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+554,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,791,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+555,"__amd_rocclr_copyBuffer.kd",2,0,793,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+556,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,794,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+557,"__amd_rocclr_fillBufferAligned.kd",2,0,796,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+558,"__amd_rocclr_fillBufferAligned.kd",2,0,797,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+559,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,798,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+560,"__amd_rocclr_copyBuffer.kd",2,0,800,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+561,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,801,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+562,"__amd_rocclr_copyBuffer.kd",2,0,803,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+563,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,804,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+564,"__amd_rocclr_fillBufferAligned.kd",2,0,806,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+565,"__amd_rocclr_fillBufferAligned.kd",2,0,807,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+566,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,808,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+567,"__amd_rocclr_copyBuffer.kd",2,0,810,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+568,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,811,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+569,"__amd_rocclr_copyBuffer.kd",2,0,813,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+570,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,814,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+571,"__amd_rocclr_fillBufferAligned.kd",2,0,816,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+572,"__amd_rocclr_fillBufferAligned.kd",2,0,817,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+573,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,818,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+574,"__amd_rocclr_copyBuffer.kd",2,0,820,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+575,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,821,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+576,"__amd_rocclr_copyBuffer.kd",2,0,823,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+577,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,824,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+578,"__amd_rocclr_fillBufferAligned.kd",2,0,826,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+579,"__amd_rocclr_fillBufferAligned.kd",2,0,827,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+580,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,828,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+581,"__amd_rocclr_copyBuffer.kd",2,0,830,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+582,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,831,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+583,"__amd_rocclr_copyBuffer.kd",2,0,833,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+584,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,834,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+585,"__amd_rocclr_fillBufferAligned.kd",2,0,836,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+586,"__amd_rocclr_fillBufferAligned.kd",2,0,837,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+587,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,838,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+588,"__amd_rocclr_copyBuffer.kd",2,0,840,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+589,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,841,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+590,"__amd_rocclr_copyBuffer.kd",2,0,843,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+591,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,844,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+592,"__amd_rocclr_fillBufferAligned.kd",2,0,846,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+593,"__amd_rocclr_fillBufferAligned.kd",2,0,847,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+594,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,848,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+595,"__amd_rocclr_copyBuffer.kd",2,0,850,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+596,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,851,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+597,"__amd_rocclr_copyBuffer.kd",2,0,853,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+598,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,854,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+599,"__amd_rocclr_fillBufferAligned.kd",2,0,856,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+600,"__amd_rocclr_fillBufferAligned.kd",2,0,857,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+601,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,858,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+602,"__amd_rocclr_copyBuffer.kd",2,0,860,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+603,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,861,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+604,"__amd_rocclr_copyBuffer.kd",2,0,863,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+605,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,864,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+606,"__amd_rocclr_fillBufferAligned.kd",2,0,866,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+607,"__amd_rocclr_fillBufferAligned.kd",2,0,867,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+608,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,868,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+609,"__amd_rocclr_copyBuffer.kd",2,0,870,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+610,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,871,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+611,"__amd_rocclr_copyBuffer.kd",2,0,873,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+612,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,874,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+613,"__amd_rocclr_fillBufferAligned.kd",2,0,876,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+614,"__amd_rocclr_fillBufferAligned.kd",2,0,877,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+615,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,878,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+616,"__amd_rocclr_copyBuffer.kd",2,0,880,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+617,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,881,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+618,"__amd_rocclr_copyBuffer.kd",2,0,883,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+619,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,884,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+620,"__amd_rocclr_fillBufferAligned.kd",2,0,886,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+621,"__amd_rocclr_fillBufferAligned.kd",2,0,887,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+622,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,888,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+623,"__amd_rocclr_copyBuffer.kd",2,0,890,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+624,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,891,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+625,"__amd_rocclr_copyBuffer.kd",2,0,893,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+626,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,894,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+627,"__amd_rocclr_fillBufferAligned.kd",2,0,896,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+628,"__amd_rocclr_fillBufferAligned.kd",2,0,897,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+629,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,898,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+630,"__amd_rocclr_copyBuffer.kd",2,0,900,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+631,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,901,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+632,"__amd_rocclr_copyBuffer.kd",2,0,903,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+633,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,904,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+634,"__amd_rocclr_fillBufferAligned.kd",2,0,906,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+635,"__amd_rocclr_fillBufferAligned.kd",2,0,907,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+636,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,908,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+637,"__amd_rocclr_copyBuffer.kd",2,0,910,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+638,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,911,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+639,"__amd_rocclr_copyBuffer.kd",2,0,913,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+640,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,914,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+641,"__amd_rocclr_fillBufferAligned.kd",2,0,916,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+642,"__amd_rocclr_fillBufferAligned.kd",2,0,917,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+643,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,918,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+644,"__amd_rocclr_copyBuffer.kd",2,0,920,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+645,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,921,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+646,"__amd_rocclr_copyBuffer.kd",2,0,923,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+647,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,924,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+648,"__amd_rocclr_fillBufferAligned.kd",2,0,926,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+649,"__amd_rocclr_fillBufferAligned.kd",2,0,927,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+650,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,928,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+651,"__amd_rocclr_copyBuffer.kd",2,0,930,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+652,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,931,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+653,"__amd_rocclr_copyBuffer.kd",2,0,933,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+654,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,934,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+655,"__amd_rocclr_fillBufferAligned.kd",2,0,936,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+656,"__amd_rocclr_fillBufferAligned.kd",2,0,937,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+657,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,938,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+658,"__amd_rocclr_copyBuffer.kd",2,0,940,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+659,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,941,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+660,"__amd_rocclr_copyBuffer.kd",2,0,943,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+661,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,944,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+662,"__amd_rocclr_fillBufferAligned.kd",2,0,946,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+663,"__amd_rocclr_fillBufferAligned.kd",2,0,947,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+664,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,948,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+665,"__amd_rocclr_copyBuffer.kd",2,0,950,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+666,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,951,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+667,"__amd_rocclr_copyBuffer.kd",2,0,953,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+668,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,954,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+669,"__amd_rocclr_fillBufferAligned.kd",2,0,956,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+670,"__amd_rocclr_fillBufferAligned.kd",2,0,957,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+671,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,958,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+672,"__amd_rocclr_copyBuffer.kd",2,0,960,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+673,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,961,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+674,"__amd_rocclr_copyBuffer.kd",2,0,963,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+675,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,964,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+676,"__amd_rocclr_fillBufferAligned.kd",2,0,966,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+677,"__amd_rocclr_fillBufferAligned.kd",2,0,967,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+678,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,968,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+679,"__amd_rocclr_copyBuffer.kd",2,0,970,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+680,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,971,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+681,"__amd_rocclr_copyBuffer.kd",2,0,973,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+682,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,974,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+683,"__amd_rocclr_fillBufferAligned.kd",2,0,976,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+684,"__amd_rocclr_fillBufferAligned.kd",2,0,977,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+685,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,978,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+686,"__amd_rocclr_copyBuffer.kd",2,0,980,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+687,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,981,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+688,"__amd_rocclr_copyBuffer.kd",2,0,983,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+689,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,984,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+690,"__amd_rocclr_fillBufferAligned.kd",2,0,986,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+691,"__amd_rocclr_fillBufferAligned.kd",2,0,987,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+692,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,988,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
+693,"__amd_rocclr_copyBuffer.kd",2,0,990,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+694,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,991,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+695,"__amd_rocclr_copyBuffer.kd",2,0,993,3605801,3605801,512,512,0,0,20,4,32,64,0x0,0x7f1e78165880
+696,"gpu_update_parity(int*, int const*, double const*, int, int, int, int, double, double, double) [clone .kd]",2,0,994,3605801,3605801,4096,512,0,0,36,4,32,64,0x0,0x7f1e78149040
+697,"__amd_rocclr_fillBufferAligned.kd",2,0,996,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+698,"__amd_rocclr_fillBufferAligned.kd",2,0,997,3605801,3605801,256,256,0,0,12,4,32,64,0x0,0x7f1e78165800
+699,"gpu_compute_energy_magnetization(int const*, int, int, int, double, double, double*, double*) [clone .kd]",2,0,998,3605801,3605801,4096,512,8192,0,24,0,32,64,0x0,0x7f1e78149080
