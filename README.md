@@ -121,27 +121,8 @@ Planned improvements include:
 - Temperature scaling studies for phase transition analysis
 - Additional optimization strategies for memory access patterns
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 Special thanks to Professor Grinberg for guidance and support throughout this project.
 
-## Citation
-
-If you use this code in your research, please cite:
-```
-@misc{gillin2024ising,
-  author = {Gillin, Taj},
-  title = {3D Ising Model with Parallel Implementations},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/username/repo}
-}
 ```
